@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #37264c;
+    color: #ffff;
+}
+
+.about-body {
+    background-color: #ffff;
+    color: #37264c;
+}
+header {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 60% 500px;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0;
+
+}
+
+hr {
+    margin: 0 5px;
+}
+
+.home-info {
+    margin: 50px 100px;
+    padding: 30px 30px 40px;
+    text-align: left;
+}
+h2 {
+    font-size: 50px ;
+    margin: 100px 0;
+}
+
+.hello-world {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+button {
+    border: none;
+    padding: 20px;
+    border-radius: 3px;
+    width: 130px;
+}
+
+.hire-btn {
+    background: #F7DD72;
+}
+
+.resume-btn{
+}
+
+
+.my-title {
+    font-size: 30px;
+}
+
+.img-div {
+    margin: 100px 100px;
+    padding: 50px 20px;
+
+}
+
+ul {
+    text-align: right;
+    font-size: 15px;
+    padding-right: 40px;
+    width: 100%;
+
+}
+
+img {
+    width: 500px;
+    border-radius: 100px 40px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 20px;
+
+}
+
+a:hover {
+    color: #F7DD72;
+    border-bottom: 1px solid white;
+}
+
+
+a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.about-nav {
+    color: #37264c;
+}
+.design-article {
+    text-align: center;
+    height: 0;
+}
+
+
+
+
+article {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    height: 200px;
+}
+
+
+.design-img {
+    width: 200px;
+    border-radius: 100px;
+    float: right;
+    margin-right: 60px;
+}
+
+.about-paragraph {
+    padding-top: 70px;
+    font-size: 20px;
+
+}
+
+.development-img {
+    width: 200px;
+    border-radius: 100px;
+    float: left;
+}
+
+fieldset {
+    width: 50%;
+    margin: 50px auto;
+    height: 60%;
+    background-color: #ffff;
+    color: #37264c;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.contact-div  {
+    width: 90%;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    margin: 5px 0;
+}
+
+input:hover {
+    box-shadow: 0 0 10px darkblue ;
+
+
+}
+
+.email-btn {
+    background-color: #37264c;
+    width: 91%;
+    margin: 0 auto;
+    display: block;
+    font-size: 20px;
+}
+
+
+.about-contact {
+    color: #ffff;
+}
+
+
+.checkbox {
+
+}
