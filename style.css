@@ -162,7 +162,6 @@ input {
 input:hover {
     box-shadow: 0 0 10px darkblue ;
 
-
 }
 
 .email-btn {
@@ -171,6 +170,7 @@ input:hover {
     margin: 0 auto;
     display: block;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 
@@ -179,6 +179,13 @@ input:hover {
 }
 
 
-.checkbox {
 
+
+.checkbox-div {
+    margin-left: 50px ;
+    padding-bottom: 20px;
+}
+
+input[type="checkbox"] {
+    width: 30px;
 }
