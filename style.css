@@ -10,16 +10,14 @@ body {
     background-color: #ffff;
     color: #37264c;
 }
+
 header {
     margin: 0;
-    display: grid;
-    grid-template-columns: 60% 500px;
 }
 
 h1 {
     font-size: 80px;
     margin: 0;
-
 }
 
 hr {
@@ -55,6 +53,7 @@ button {
     background: #F7DD72;
 }
 
+
 .resume-btn{
 }
 
@@ -64,20 +63,28 @@ button {
 }
 
 .img-div {
-    width: 550px;
-    margin: 100px 100px;
-    padding: 50px 20px;
-    border-radius: 100px 40px;
-
+   width: 400px;
+   margin: auto 0;
 
 }
+
+
 
 ul {
     text-align: right;
     font-size: 15px;
     padding-right: 40px;
-    width: 100%;
+    /* width: 100%; */
 
+}
+
+.hire-btn:hover {
+    color: black;
+}
+
+.resume-btn > a {
+    color: black;
+    text-transform: uppercase;
 }
 
 
@@ -87,7 +94,7 @@ li {
 
 }
 
-a:hover {
+.about-nav:hover{
     color: #F7DD72;
     border-bottom: 1px solid white;
 }
@@ -196,6 +203,7 @@ footer {
 
 .footer-list {
     text-align: center;
+
 }
 
 
@@ -252,9 +260,6 @@ footer {
     grid-template-rows: 1fr 1fr ;
     align-items: center;
 
-
-
-
 }
 
 .container > img {
@@ -273,4 +278,59 @@ footer {
 .page3-h1{
     color: #37264c;
     margin-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+    body {
+        width: 400px;
+        padding: 0;
+    }
+    h1 {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .hello-world {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .my-title {
+        font-size: 15px;
+    }
+
+    .home-info {
+        margin: 0 auto;
+    }
+
+
+
+    .hire-btn, .resume-btn {
+        font-size: 10px;
+        width: 70px;
+        height: 40px;
+        padding: 0 2px;
+
+    }
+
+    .img-container {
+        text-align: center;
+    }
+
+    .img-div {
+        width: 10em;
+        margin: 0;
+
+    }
+
+    .footer-list img {
+        margin: 0;
+        padding: 0;
+        width: 3em;
+    }
+
 }
