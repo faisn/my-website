@@ -108,12 +108,11 @@ a {
 .about-nav {
     color: #37264c;
 }
+
 .design-article {
     text-align: center;
     height: 0;
 }
-
-
 
 
 article {
@@ -183,8 +182,6 @@ input:hover {
 .about-contact {
     color: #ffff;
 }
-
-
 
 
 .checkbox-div {
